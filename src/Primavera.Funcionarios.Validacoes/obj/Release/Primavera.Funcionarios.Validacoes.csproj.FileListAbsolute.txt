@@ -1,0 +1,5 @@
+C:\dev\primaveraerp-employeemanagment\src\Primavera.Funcionarios.Validacoes\bin\Release\Primavera.Funcionarios.Validacoes.dll
+C:\dev\primaveraerp-employeemanagment\src\Primavera.Funcionarios.Validacoes\bin\Release\Primavera.Funcionarios.Validacoes.pdb
+C:\dev\primaveraerp-employeemanagment\src\Primavera.Funcionarios.Validacoes\obj\Release\Primavera.Funcionarios.Validacoes.csproj.CoreCompileInputs.cache
+C:\dev\primaveraerp-employeemanagment\src\Primavera.Funcionarios.Validacoes\obj\Release\Primavera.Funcionarios.Validacoes.dll
+C:\dev\primaveraerp-employeemanagment\src\Primavera.Funcionarios.Validacoes\obj\Release\Primavera.Funcionarios.Validacoes.pdb
