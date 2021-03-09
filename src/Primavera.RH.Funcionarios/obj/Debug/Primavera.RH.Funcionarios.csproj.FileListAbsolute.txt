@@ -1,0 +1,7 @@
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\bin\Debug\Primavera.RH.Funcionarios.dll
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\bin\Debug\Primavera.RH.Funcionarios.pdb
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\obj\Debug\Primavera.RH.Funcionarios.UI.FDU_FichaFuncionario.resources
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\obj\Debug\Primavera.RH.Funcionarios.csproj.GenerateResource.cache
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\obj\Debug\Primavera.RH.Funcionarios.csproj.CoreCompileInputs.cache
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\obj\Debug\Primavera.RH.Funcionarios.dll
+C:\Mahota\Source\CSharp\learn\primaveraerp-employeemanagment\src\Primavera.RH.Funcionarios\obj\Debug\Primavera.RH.Funcionarios.pdb
