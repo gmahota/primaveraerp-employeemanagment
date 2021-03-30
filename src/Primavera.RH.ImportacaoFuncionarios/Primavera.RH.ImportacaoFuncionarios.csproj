@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7477F7AC-6760-4162-808F-DA7A0376C6AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Primavera.RH.ImportacaoFuncionarios</RootNamespace>
+    <AssemblyName>Primavera.RH.ImportacaoFuncionarios</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasBE100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\Apl\BasBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ErpBS100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\ErpBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IBasBS100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\Apl\IBasBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IRhpBS100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\Apl\IRhpBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Primavera.Extensibility.Attributes">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\Primavera.Extensibility.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Primavera.Extensibility.BusinessEntities">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\Primavera.Extensibility.BusinessEntities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Primavera.Extensibility.CustomCode">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\Primavera.Extensibility.CustomCode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Primavera.Extensibility.CustomForm">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\Primavera.Extensibility.CustomForm.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Primavera.Extensibility.Integration">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\Primavera.Extensibility.Integration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RhpBE100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\Apl\RhpBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StdBE100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\StdBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StdPlatBS100">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PRIMAVERA\SG100\APL\StdPlatBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\PrimaveraConstHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ClsFuncionario.cs" />
+    <Compile Include="Services\Geral.cs" />
+    <Compile Include="UI\FDU_ImportacaoFuncionarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FDU_ImportacaoFuncionarios.Designer.cs">
+      <DependentUpon>FDU_ImportacaoFuncionarios.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Actualizar.ico" />
+    <Content Include="Resources\actualizar32x32.ico" />
+    <Content Include="Resources\ajuda.ico" />
+    <Content Include="Resources\ajuda32x32.ico" />
+    <Content Include="Resources\anular.ico" />
+    <Content Include="Resources\anular32x32.ico" />
+    <Content Include="Resources\Arrows-Left-Arrow-icon.png" />
+    <Content Include="Resources\Arrows-Left-Arrow-icon1.png" />
+    <Content Include="Resources\Arrows-Left.png" />
+    <Content Include="Resources\Arrows-Right-Arrow-icon.png" />
+    <Content Include="Resources\Arrows-Right.png" />
+    <Content Include="Resources\bTPrint.Image.png" />
+    <Content Include="Resources\cancelar.ico" />
+    <Content Include="Resources\cancelar32x32.ico" />
+    <Content Include="Resources\email.ico" />
+    <Content Include="Resources\email32x32.ico" />
+    <Content Include="Resources\Feramentas.ico" />
+    <Content Include="Resources\ferramentas32x32.ico" />
+    <Content Include="Resources\gravar.ico" />
+    <Content Include="Resources\gravar32x32.ico" />
+    <Content Include="Resources\lista.ico" />
+    <Content Include="Resources\lista32x32.ico" />
+    <Content Include="Resources\novo.ico" />
+    <Content Include="Resources\novo32x32.ico" />
+    <Content Include="Resources\operacoes.ico" />
+    <Content Include="Resources\operacoes32x32.ico" />
+    <Content Include="Resources\processar.ico" />
+    <Content Include="Resources\processar32x32.ico" />
+    <Content Include="Resources\procurar.ico" />
+    <Content Include="Resources\procurar32x32.ico" />
+    <Content Include="Resources\Scripts\Script_init.sql" />
+    <Content Include="Resources\Scripts\Script_PagamentosFuncionarios_Bank.sql" />
+    <Content Include="Resources\Scripts\Script_Parametros_Bank.sql" />
+    <Content Include="Resources\template\sample.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FDU_ImportacaoFuncionarios.resx">
+      <DependentUpon>FDU_ImportacaoFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

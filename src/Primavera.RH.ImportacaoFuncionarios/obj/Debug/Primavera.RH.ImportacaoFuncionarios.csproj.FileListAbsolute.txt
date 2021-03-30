@@ -1,0 +1,9 @@
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\bin\Debug\Primavera.RH.ImportacaoFuncionarios.dll
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\bin\Debug\Primavera.RH.ImportacaoFuncionarios.pdb
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.csprojAssemblyReference.cache
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.Properties.Resources.resources
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.UI.FDU_ImportacaoFuncionarios.resources
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.csproj.GenerateResource.cache
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.csproj.CoreCompileInputs.cache
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.dll
+C:\dev\Aula3\primaveraerp-employeemanagment\src\Primavera.RH.ImportacaoFuncionarios\obj\Debug\Primavera.RH.ImportacaoFuncionarios.pdb
