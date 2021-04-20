@@ -1,0 +1,7 @@
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\bin\Debug\Primavera.ImportacaCSV.dll
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\bin\Debug\Primavera.ImportacaCSV.pdb
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\obj\Debug\Primavera.ImportacaCSV.csproj.GenerateResource.cache
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\obj\Debug\Primavera.ImportacaCSV.csproj.CoreCompileInputs.cache
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\obj\Debug\Primavera.ImportacaCSV.dll
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\obj\Debug\Primavera.ImportacaCSV.pdb
+C:\Mahota\Source\CSharp\learn\aula4\primaveraerp-employeemanagment\src\Primavera.ImportacaCSV\obj\Debug\Primavera.ImportacaCSV.UI.FDU_ImportacaoFuncionariosCSV.resources
